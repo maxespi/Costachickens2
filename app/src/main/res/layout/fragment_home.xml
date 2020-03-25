@@ -30,46 +30,42 @@
         app:layout_constraintStart_toStartOf="parent">
 
         <Button
+            android:id="@+id/gohome"
+            style="?android:textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/blue_button_bg"
+            android:text="Inicio"
+            android:textColor="#fff"
+            android:textStyle="bold" />
+
+        <Button
             android:id="@+id/goweb"
             style="?android:textAppearanceSmall"
             android:layout_width="match_parent"
             android:layout_height="80dp"
             android:background="@drawable/blue_button_bg"
-            android:onClick="goweb"
             android:text="Pagina Web"
             android:textColor="#fff"
             android:textStyle="bold"
             tools:ignore="OnClick" />
 
         <Button
-            android:id="@+id/gologin"
+            android:id="@+id/gomenu"
             style="?android:textAppearanceSmall"
             android:layout_width="match_parent"
             android:layout_height="80dp"
             android:background="@drawable/blue_button_bg"
-            android:onClick="inicio"
-            android:text="Inicio"
-            android:textColor="#fff"
-            android:textStyle="bold" />
-
-        <Button
-            android:id="@+id/goregister"
-            style="?android:textAppearanceSmall"
-            android:layout_width="match_parent"
-            android:layout_height="80dp"
-            android:background="@drawable/blue_button_bg"
-            android:onClick="menu"
             android:text="Menu"
             android:textColor="#fff"
             android:textStyle="bold" />
 
         <Button
-            android:id="@+id/gorecovery"
+            android:id="@+id/goqrcode"
             style="?android:textAppearanceSmall"
             android:layout_width="match_parent"
             android:layout_height="80dp"
             android:background="@drawable/blue_button_bg"
-            android:onClick="qrcode"
             android:text="QR Code"
             android:textColor="#fff"
             android:textStyle="bold" />

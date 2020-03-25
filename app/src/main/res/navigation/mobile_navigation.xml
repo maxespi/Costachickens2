@@ -31,13 +31,20 @@
 
     <fragment
         android:id="@+id/nav_segundo"
-        android:name="com.e.costachickens2.ui.gallery.GalleryFragment"
+        android:name="com.e.costachickens2.ui.web.WebFragment"
         android:label="@string/menu_segundo"
-        tools:layout="@layout/fragment_gallery" />
+        tools:layout="@layout/web_fragment" />
 
     <fragment
         android:id="@+id/nav_tercero"
-        android:name="com.e.costachickens2.ui.slideshow.SlideshowFragment"
+        android:name="com.e.costachickens2.ui.menu.MenuFragment"
         android:label="@string/menu_tercero"
-        tools:layout="@layout/fragment_slideshow" />
+        tools:layout="@layout/fragment_menu" />
+
+    <fragment
+        android:id="@+id/nav_cuarto"
+        android:name="com.e.costachickens2.ui.qrcode.QRcodeFragment"
+        android:label="@string/menu_tercero"
+        tools:layout="@layout/fragment_qrcode" />
+
 </navigation>
